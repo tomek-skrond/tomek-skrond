@@ -23,7 +23,7 @@ personal_information:
     past:
       degree: Bachelor's Degree
       field: Cyber Security
-  passions:
+  interests:
     professional:
       - Dev(Sec)Ops
       - Open Source technologies
