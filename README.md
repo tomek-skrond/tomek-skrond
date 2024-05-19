@@ -46,6 +46,8 @@ tech_stack:
   ci_cd:
     - Gitlab CI
     - Github Actions
+  automation:
+    - Ansible
   containers:
     - Docker
     - Podman
