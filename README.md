@@ -38,6 +38,10 @@ tech_stack:
     - Linux (RHEL, Debian-Based)
     - Bash Scripting
     - System Administration
+  containers:
+    - Docker
+    - Podman
+    - Kubernetes
   infrastructure_as_code:
     - Terraform
   cloud:
@@ -46,12 +50,11 @@ tech_stack:
   ci_cd:
     - Gitlab CI
     - Github Actions
+  monitoring:
+    - Prometheus + Grafana
+    - Splunk
   automation:
     - Ansible
-  containers:
-    - Docker
-    - Podman
-    - Kubernetes
   programming:
     - Go
     - Python
