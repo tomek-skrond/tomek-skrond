@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **tomek-skrond/tomek-skrond** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,45 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+### whoami
+```
+$ whoami --output yaml --include tech_stack
+personal_information:
+  education:
+    current:
+      degree: Master's degree
+      field: Cyber Security
+    past:
+      degree: Bachelor's Degree
+      field: Cyber Security
+  passions:
+    professional:
+      - Dev(Sec)Ops
+      - Open Source technologies
+      - Programming
+    private:
+      - Music Production
+      - Table tennis
+      - Cooking
+
+tech_stack:
+  operating_systems:
+    - Linux (RHEL, Debian-Based)
+    - Bash Scripting
+    - System Administration
+  infrastructure_as_code:
+    - Terraform
+  cloud:
+    preferred: Google Cloud Platform
+    other: AWS
+  ci_cd:
+    - Gitlab CI
+    - Github Actions
+  containers:
+    - Docker
+    - Podman
+    - Kubernetes
+  programming:
+    - Go
+    - Python
+```
