@@ -26,7 +26,7 @@ personal_information:
 
 tech_stack:
   operating_systems:
-    - Linux (RHEL, Debian-Based)
+    - Linux (RHEL, Debian-Based, NixOS)
     - Bash Scripting
     - System Administration
   containers:
@@ -37,7 +37,9 @@ tech_stack:
     - Terraform
   cloud:
     preferred: Google Cloud Platform
-    other: AWS
+    other:
+      - AWS
+      - Linode
   ci_cd:
     - Gitlab CI
     - Github Actions
