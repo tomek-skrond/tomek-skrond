@@ -1,3 +1,4 @@
+# Hi!
 - 🔭 I’m currently working on: getting a job
 - 🌱 I’m currently learning: Front-End basics
 - 👯 I’m looking to collaborate on: Programming/DevOps/Security projects
