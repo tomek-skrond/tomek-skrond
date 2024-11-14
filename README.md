@@ -1,3 +1,6 @@
+
+![Metrics](/github-metrics.svg)
+
 # Hi!
 - 🔭 I’m currently working at: [akena-engineering](https://github.com/akena-engineering)
 - 🌱 I’m currently learning: Front-End basics, Blockchain techonologies in DevOps
