@@ -1,7 +1,17 @@
-name: Example
-uses: lowlighter/metrics@latest
-with:
-  template: terminal
-  filename: metrics.terminal.svg
-  token: ${{ secrets.METRICS_TOKEN }}
-  base: header, metadata
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  metrics:
+    name: Example
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          template: terminal
+          filename: metrics.terminal.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header,metadata
